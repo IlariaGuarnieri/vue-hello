@@ -4,7 +4,10 @@ createApp({
   data(){
     return{
       saluto:'hello world',
-      urlImmagine:'img/02.webp'
+      img:{
+        path:'img/02.webp',
+        alt: 'img-js'
+      }
     }
-  },
+  }
 }).mount('#app')
